@@ -1,0 +1,54 @@
+.data-container{
+    height: 100vh;
+    width: 100%;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+.persolnal-info{
+    height: 60vh;
+    width: 100%;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 10px;
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+.left {
+    text-align: center;
+    height: 40vh;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.image {
+    margin-top: 30px;
+  
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+  }
+  .input-line{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+  }
+  .job-info {
+    height: 30vh;
+    width: 100%;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+     
+  }
+  .select-line {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-right: 10px;
+  }

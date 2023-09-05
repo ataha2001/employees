@@ -1,0 +1,119 @@
+.addUser {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    .newContainer {
+      margin-top: 50px;
+      flex: 6;
+      
+      .top,
+      .bottom {
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            padding: 10px;
+            margin: 20px;
+            display: flex;
+            border-radius: 5px;
+      }
+      .top{
+          display: flex;
+          justify-content: space-between;
+      }
+      .left {
+        flex: 1;
+        text-align: center;
+    
+       
+      }
+      img {
+        margin-top: 30px;
+        // width: 200px;
+        // height: 300px;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    
+      .right {
+        flex: 2;
+    
+        form {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 30px;
+          justify-content: space-around;
+    
+          .formInput {
+            width: 40%;
+    
+            label {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+    
+              .icon {
+                cursor: pointer;
+              }
+            }
+    
+            input {
+              width: 100%;
+              padding: 5px;
+              border: none;
+              border-bottom: 1px solid gray;
+              
+            }
+            input[type=checkbox] {
+              
+              background-color: green!important;
+              cursor: pointer;
+              height: 30px;
+              color: red;
+              font-size: 20px;
+            }
+           
+            
+            
+            
+          }
+          
+    
+          button {
+            width: 150px;
+            padding: 10px;
+            border: none;
+            background-color: rgb(4, 196, 196);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+            &:hover{
+              background-color: rgb(5, 239, 239);
+            }
+            &:disabled {
+              background-color: gray;
+              cursor: progress;
+            }
+          }
+
+          button[type=button]{
+            background-color: #e7e7e7; 
+            color: black;
+            &:hover{
+              background-color: #cbc7c7;
+            }
+          }
+        }
+        
+    }
+    
+    
+
+  }
+}
+
+
+
+/* <Box m="auto" mt='4rem' mb='0' height='100vh' width="1000px"></Box> */
